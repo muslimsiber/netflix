@@ -14,6 +14,7 @@ Font_SkyBlue="\033[36m";
 Font_White="\033[37m";
 Font_Suffix="\033[0m";
 LOG_FILE="check.log";
+IPVPS=$(curl -s ifconfig.me )
 
 
 export LANG="en_US";
